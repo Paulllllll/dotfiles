@@ -1,1 +1,1 @@
-# dotfiles
+# setup vim tmux environment
