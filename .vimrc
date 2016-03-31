@@ -7,7 +7,6 @@ execute pathogen#infect()
 syntax on
 color evening
 set number
-helptags ~/.vim/doc
 filetype plugin indent on
 let mapleader=","
 map <Leader>s :SlimuxREPLSendLine<CR>
