@@ -13,3 +13,5 @@ git clone https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
 git clone https://github.com/scrooloose/nerdcommenter.git ~/.vim/bundle/nerdcommenter/
 curl -LSso ~/.zshrc https://raw.githubusercontent.com/paulllllll/env/master/.zshrc
 curl -LSso ~/.vimrc https://raw.githubusercontent.com/paulllllll/env/master/.vimrc
+curl -LSso ~/.gitconfig https://raw.githubusercontent.com/paulllllll/env/master/.gitconfig
+curl -LSso ~/.tmux.conf https://raw.githubusercontent.com/paulllllll/env/master/.tmux.conf
