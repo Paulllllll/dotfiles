@@ -1,8 +1,8 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/paul/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
-export SPARK_HOME=/home/paul/Documents/AutoAlert/spark-1.6.0-bin-hadoop2.6
-export SPARK_CLASSPATH=/home/paul/Documents/AutoAlert/connectors/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar:/home/paul/Documents/AutoAlert/connectors/RedshiftJDBC41-1.1.13.1013.jar
+export SPARK_HOME=~/Documents/AutoAlert/spark-1.6.0-bin-hadoop2.6
+export SPARK_CLASSPATH=~/Documents/AutoAlert/connectors/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar:/home/paul/Documents/AutoAlert/connectors/RedshiftJDBC41-1.1.13.1013.jar
 export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
