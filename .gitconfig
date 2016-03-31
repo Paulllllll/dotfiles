@@ -1,0 +1,74 @@
+[user]
+    name = {Paul Chua}
+    email = {paul.chua@autoalert.com}
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+    pager=less -x4
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = red reverse
+    local = blue
+    remote = green
+[color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red bold
+    new = green
+    plain = normal
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[diff]
+    tool = vimdiff
+[alias]
+    a = add
+    aa = add --all
+    ai = add -i
+    #############
+    b = branch
+    ba = branch -av
+    bd = branch -d
+    bdr = branch -d -r
+    #############
+    cl = clone
+    #############
+    c = commit
+    cm = commit -m
+    #############
+    d = diff
+    dk = diff --check
+    #############
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    # NOT working - lc  = "!f() { git ll "$1"^.."$1"; }; f"
+    ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+    logtree = log --graph --oneline --decorate --all
+    #############
+    m = merge
+    mm = merge --no-ff master
+    #############
+    o = checkout
+    om = checkout master
+    #############
+    pl = pull
+    plo = pull origin
+    #############
+    ps = push
+    pso = push origin
+    #############
+    rh = reset HEAD
+    rehh = reset --hard HEAD
+    resh = reset --soft HEAD
+    #############
+    sc = stash clear
+    sl = stash list
+    sp = stash pop
+    ss = stash save
+    sw = stash show
+    #############
+    s = status
+    #############
