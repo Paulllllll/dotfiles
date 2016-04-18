@@ -19,7 +19,6 @@ au BufNewFile,BufRead *.py
     \ set softtabstop=4 |
     \ set shiftwidth=4 |
     \ set expandtab |
-    \ set max-line-length=80 |
     \ set autoindent |
     \ set fileformat=unix |
 map <f12> :!start /min ctags -R .<cr>
