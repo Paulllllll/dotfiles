@@ -12,6 +12,7 @@ git clone https://github.com/tmhedberg/SimpylFold.git ~/.vim/bundle/SimpylFold
 git clone https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
 git clone https://github.com/scrooloose/nerdcommenter.git ~/.vim/bundle/nerdcommenter/
 git clone https://github.com/derekwyatt/vim-scala.git ~/.vim/bundle/vim-scala/
+git clone https://github.com/klen/python-mode.git ~/.vim/bundle/python-mode
 curl -LSso ~/.zshrc https://raw.githubusercontent.com/paulllllll/env/master/.zshrc
 curl -LSso ~/.vimrc https://raw.githubusercontent.com/paulllllll/env/master/.vimrc
 curl -LSso ~/.gitconfig https://raw.githubusercontent.com/paulllllll/env/master/.gitconfig
