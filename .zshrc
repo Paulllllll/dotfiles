@@ -86,3 +86,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias path='echo -e ${PATH//:/\\n} | sort -u' # List all directories in $PATH
